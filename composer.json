@@ -3,24 +3,9 @@
     "type": "library",
     "description": "RBAC component for PHP applications.",
     "keywords": ["Rbac", "security", "acl", "permissions"],
-    "homepage": "http://sylius.org",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Paweł Jędrzejewski",
-            "homepage": "http://pjedrzejewski.com"
-        },
-        {
-            "name": "Sylius project",
-            "homepage": "http://sylius.org"
-        },
-        {
-            "name": "Community contributions",
-            "homepage": "http://github.com/Sylius/Sylius/contributors"
-        }
-    ],
     "require": {
-        "php": "^5.6|^7.0",
+        "php": "^7.0",
 
         "sylius/resource": "^1.0"
     },
@@ -36,7 +21,7 @@
     "autoload-dev": {
         "psr-4": { "Sylius\\Component\\Rbac\\spec\\": "spec/" }
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true,
     "repositories": [
         {
